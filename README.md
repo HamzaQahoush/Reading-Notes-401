@@ -5,7 +5,7 @@
 
 | Topic      | Link |
 | ---------- | ----------- |
-|   Read: 01 - Big O Notation [Link]()|
+|   Read: 01 - Big O Notation | [Link]()|
 |   Read: 02 - |[Link]()|
 |   Read: 03 -|[Link]()|
 |   Read: 04 -|[Link]()|
