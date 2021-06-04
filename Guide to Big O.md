@@ -3,7 +3,7 @@ is used in Computer Science to describe the performance or complexity of an algo
 
 ### Degree of growth : 
 O(1) \
-O(1) describes an algorithm that will always execute in the same time (or space) regardless of the size of the input data set.
+describes an algorithm that will always execute in the same time (or space) regardless of the size of the input data set.
 
 
 O(N)\
