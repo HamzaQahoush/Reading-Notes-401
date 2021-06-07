@@ -14,7 +14,10 @@
 **End of file (EOF):** special character that indicates the end of the file
 
 ### Opening and Closing a File in Python : 
-`file = open('dog_breeds.txt')` we should always make sure that an open file is properly closed.
+`file = open('dog_breeds.txt')` 
+
+we should always make sure that an open file is properly closed.
+
 `with open('dog_breeds.txt') as reader:`
   
 The with statement automatically takes care of closing the file once it leaves the with block, even in cases of error. 
