@@ -1,4 +1,4 @@
-# Read: Class 06 Summary :
+
 ## How to use the Random Module in Python ?
 *  The **random module** provides access to functions that support many operations. Perhaps the most important thing is that it allows you to generate random numbers.For example , when we want the computer to pick a random number in a given range or pick a random element from a list, pick a random card from a deck, flip a coin etc
 * **The Random module contains some very useful functions** :
