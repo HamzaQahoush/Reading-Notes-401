@@ -78,17 +78,7 @@ There are different sets of risks included in the risk identification process. T
 ## Big O : 
  * represent how time scales with respect to some input values 
 
-## More about random module:
- * All the functions supplied by this module are actually bound methods of a hidden instance of the random.Random class. You can instantiate your own instances of Random to get generators that don’t share state.
- * Class Random can also be subclassed if you want to use a different basic generator of your own devising: in that case, override the random(), seed(), getstate(), and setstate() methods. Optionally, a new generator can supply a getrandbits() method — this allows randrange() to produce selections over an arbitrarily large range.
- * The random module also provides the SystemRandom class which uses the system function os.urandom() to generate random numbers from sources provided by the operating system.
- * **random.seed(a=None, version=2)** >> Initialize the random number generator.
- * **random.getstate()** >> Return an object capturing the current internal state of the generator. This object can be passed to setstate() to restore the state.
- * **random.setstate(state)** >>state should have been obtained from a previous call to getstate(), and setstate() restores the internal state of the generator to what it was at the time getstate() was called.
- * **random.randbytes(n)** >> Generate n random bytes.This method should not be used for generating security tokens. Use secrets.token_bytes() instead.
- * **random.uniform(a, b)** >> Return a random floating point number N such that a <= N <= b for a <= b and b <= N <= a for b < a.The end-point value b may or may not be included in the range depending on floating-point rounding in the equation a + (b-a) * random().
- * **random.triangular(low, high, mode)** >> Return a random floating point number N such that low <= N <= high and with the specified mode between those bounds. The low and high bounds default to zero and one. The mode argument defaults to the midpoint between the bounds, giving a symmetric distribution.
- 
+
 # A quick intro to Dependency Injection: what it is, and when to use it :
 * Dependency injection is a technique whereby one object (or static method) supplies the dependencies of another object. A dependency is an object that can be used (a service).
 * **There are basically three types of dependency injection**:
