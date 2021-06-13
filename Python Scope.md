@@ -16,12 +16,6 @@
 
 * A Python scope determines where in your program a name is visible. Python scopes are implemented as **dictionaries** that map names to objects. These dictionaries are commonly called **namespaces**. These are the concrete mechanisms that Python uses to store names. They’re stored in a special attribute called .__dict__.
 
-* ***Note*** : If you need to use the name ps1, which is defined in sys. If you know how .__dict__ and namespaces work in Python, then you can reference ps1 in at least two different ways:
-  1. Using the dot notation on the module’s name in the form module.name
-  2. Using a subscription operation on .__dict__ in the form module.__dict__['name']
-
-* Whenever you try to access a name that isn’t defined in any Python scope, you’ll get a **NameError**. The error message will include the name that couldn’t be found.
-* In Python, the notions of global scope and global names are tightly associated with module files. For example, if you define a name at the top level of any Python module, then that name is considered global to the module. That’s the reason why this kind of scope is also called module scope.
 
 * the **global** statement can be used to modify global names from almost any place in your code, as you’ll see in The global Statement. Modifying global names is generally considered bad programming practice because it can lead to code that is:
   1. **Difficult to debug**: Almost any statement in the program can change the value of a global name.
