@@ -1,4 +1,4 @@
-# Read: Class 09 Summary:
+
 ## Enriching Your Python Classes With Dunder (Magic, Special) Methods:
 * **Dunder methods**  or **the special methods** or **magic methods** are a set of predefined methods you can use to enrich your classes. They are easy to recognize because they start and end with double underscores, for example __init__ or __str__.
 * They are used to create functionality that can't be represented as a normal method.
