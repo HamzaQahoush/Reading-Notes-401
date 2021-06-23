@@ -9,6 +9,7 @@
 7. **Leaf** - A leaf is a node that does not have any children
 8. **Height** - The height of a tree is the number of edges from the root to the furthest leaf.
 
+![](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-15/resources/images/BinaryTree1.PNG)
 ## Traversals:
 * Traversing a tree allows us to search for a node, print out the contents of a tree, and much more! 
 * There are two categories of traversals when it comes to trees:
