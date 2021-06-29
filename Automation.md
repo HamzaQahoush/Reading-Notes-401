@@ -16,7 +16,7 @@ re.search(r'cake$', "Cake! Let's eat cake").group()
  * [abc] - Matches a or b or c.
  * [a-zA-Z0-9] - Matches any letter from (a to z) or (A to Z) or (0 to 9).
 
-* ![image](https://performiq.com/kb/images/Regex_Patterns.gif)
+![](https://performiq.com/kb/images/Regex_Patterns.gif)
 
 ## Automation Using Python
 * You can automate nearly everything with Python. From sending emails and filling out PDFs and CSVs to interacting with external APIs and sending HTTP requests. Whatever your idea, it’s more than likely that you can pull it off using Python along with its modules and tools.
