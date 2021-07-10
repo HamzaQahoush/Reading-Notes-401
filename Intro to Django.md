@@ -5,14 +5,13 @@ A Web framework is a set of components that provide a standard way to develop we
 Django’s primary goal is to ease the creation of complex database-driven websites.
 Some well known sites that use Django include PBS, Instagram, Disqus, Washington Times, Bitbucket and Mozilla.
 
-Getting started with Django :
+###  Getting started with Django :
 
 1. Install Django : 
 `py -m pip install Django` after creating directory environment 
 
 2. Creating a project :
- From the command line, cd into a directory where you’d like to store your code, then run the following command:
- ` django-admin startproject mysite`
+ From the command line, cd into a directory where you’d like to store your code, then run the following command: `django-admin startproject mysite`
  
 The output of  what startproject created:
 
