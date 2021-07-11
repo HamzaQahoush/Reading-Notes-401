@@ -43,13 +43,27 @@ Each field in your model should be an instance of the appropriate Field class. D
 
 • The column type, which tells the database what kind of data to store (e.g. INTEGER, VARCHAR, TEXT).
 
-• The default HTML widget to use when rendering a form field (e.g. <input type="text">, <select>).
+• The default HTML widget to use when rendering a form field `(e.g. <input type="text">, <select>).`
   
-• The minimal validation requirements, used in Django’s admin and in automatically-generated forms.
-      
-## Django admin site
-      
- The Django admin application can use your models to automatically build a site area that you can use 
-  to create, view, update, and delete records. This can save you a you lot of time during development, 
-  making it very easy to test your models and get a feel for whether you have the right data
+• The minimal validation requirements, used in Django’s admin and in automatically-generated forms. 
+         
+### Django admin site :  
+
+ • The Django admin application can use your models to automatically build a site area that you can use 
+  to create, view, update, and delete records. 
   
+  • The admin application can also be useful for managing data in production, depending on the type of website.
+  
+ ### Registering models 
+ ```
+ from django.contrib import admin
+
+# Register your models here.
+
+ ```
+ 
+ Creating a superuser
+ ```
+ python3 manage.py createsuperuser
+
+ ```
