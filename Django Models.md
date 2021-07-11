@@ -46,6 +46,10 @@ Each field in your model should be an instance of the appropriate Field class. D
 • The default HTML widget to use when rendering a form field (e.g. <input type="text">, <select>).
   
 • The minimal validation requirements, used in Django’s admin and in automatically-generated forms.
-  
- ## Django admin site : 
+      
+## Django admin site
+      
+ The Django admin application can use your models to automatically build a site area that you can use 
+  to create, view, update, and delete records. This can save you a you lot of time during development, 
+  making it very easy to test your models and get a feel for whether you have the right data
   
