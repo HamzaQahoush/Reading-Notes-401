@@ -26,10 +26,10 @@ If not specified, this setting defaults to allowing unrestricted access:
 ]
 ```
 ## API Reference :
-1. AllowAny : The AllowAny permission class will allow unrestricted access, regardless of if the request was authenticated or unauthenticated.
-2. IsAuthenticated : The IsAuthenticated permission class will deny permission to any unauthenticated user, and allow permission otherwise.This permission is suitable if you want your API to only be accessible to registered users.
-3. IsAdminUser : The IsAdminUser permission class will deny permission to any user, unless user.is_staff is True in which case permission will be allowed.This permission is suitable if you want your API to only be accessible to a subset of trusted administrators.
-4. IsAuthenticatedOrReadOnly :The IsAuthenticatedOrReadOnly will allow authenticated users to perform any request. Requests for unauthorised users will only be permitted if the request method is one of the "safe" methods; GET, HEAD or OPTIONS.
-5. DjangoModelPermissions : This permission class ties into Django's standard django.contrib.auth model permissions. This permission must only be applied to views that have a .queryset property or get_queryset() method. Authorization will only be granted if the user is authenticated and has the relevant model permissions assigned.
-6. DjangoModelPermissionsOrAnonReadOnly :Similar to DjangoModelPermissions, but also allows unauthenticated users to have read-only access to the API.
-7. DjangoObjectPermissions : This permission class ties into Django's standard object permissions framework that allows per-object permissions on models. In order to use this permission class, you'll also need to add a permission backend that supports object-level permissions, such as django-guardian.
+1. `AllowAny` : The AllowAny permission class will allow unrestricted access, regardless of if the request was authenticated or unauthenticated. <br>
+2. `IsAuthenticated` : The IsAuthenticated permission class will deny permission to any unauthenticated user, and allow permission otherwise.This permission is suitable if you want your API to only be accessible to registered users.<br>
+3. `IsAdminUser` : The IsAdminUser permission class will deny permission to any user, unless user.is_staff is True in which case permission will be allowed.This permission is suitable if you want your API to only be accessible to a subset of trusted administrators.<br>
+4. `IsAuthenticatedOrReadOnly` :The IsAuthenticatedOrReadOnly will allow authenticated users to perform any request. Requests for unauthorised users will only be permitted if the request method is one of the "safe" methods; GET, HEAD or OPTIONS.<br>
+5. `DjangoModelPermissions` : This permission class ties into Django's standard django.contrib.auth model permissions. This permission must only be applied to views that have a .queryset property or get_queryset() method. Authorization will only be granted if the user is authenticated and has the relevant model permissions assigned.<br>
+6. `DjangoModelPermissionsOrAnonReadOnly` :Similar to DjangoModelPermissions, but also allows unauthenticated users to have read-only access to the API.<br>
+7. `DjangoObjectPermissions` : This permission class ties into Django's standard object permissions framework that allows per-object permissions on models. In order to use this permission class, you'll also need to add a permission backend that supports object-level permissions, such as django-guardian.<br>
