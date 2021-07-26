@@ -30,5 +30,14 @@ The refresh token lives a little bit longer (expires in 24 hours, also customiza
 
 • signature
 
+## Django Runserver 
 
+A production setup usually consists of multiple components, each designed and built to be really good at one specific thing. They are fast, reliable and very focused.
+
+When a request arrives at your server, it should be passed to a dedicated web server. Nginx is an example for a good web server.
+
+This is an application, which is great at serving static files from disk (your css and js files for example) and handling multiple requests at once. If the request is not for a static file, but should be processed by your application, the webserver is configured to pass this request to the next component.
+
+The next component is an application server.
+It gets those fancy requests and uses them to construct Python objects which are usable by Django. WSGI is a specification which people agreed on, which describe how that happens. Gunicorn is an example for a WSGI server.
 
