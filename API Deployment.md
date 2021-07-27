@@ -1,4 +1,4 @@
-# Readings: API Deployment Summary:
+# Read 34: API Deployment Summary:
 ## Configuring Django Settings: Best Practices:
 #### Managing Django Settings: Issues:
 1. **Different environments** Each environment can have its own specific settings.we need an approach that allows us to keep all env Django setting configurations.
