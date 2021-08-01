@@ -1,4 +1,4 @@
-# Readings: React 1 Summary :
+Read: Class 37: React 1 :
 ### React:
 * is a JavaScript library that aims to simplify development of visual interfaces.
 
